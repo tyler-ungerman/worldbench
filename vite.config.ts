@@ -3,7 +3,7 @@ import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/worldbench/',
   test: {
     environment: 'node',
     globals: false,
